@@ -1,0 +1,390 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* first section */
+
+.heading{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.content{
+    width: 40%;
+}
+
+.content > p{
+    font-size: 16px;
+    width: 80%;
+}
+
+.content > h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.content > button{
+    width: 23.4375%;
+    height:7.8125%;
+    font-size: 1em;
+    margin-top:5%;
+    border-style: none;
+    background-color: #FF3147;
+    color: white;
+    cursor: pointer;
+}
+
+
+.head{
+    font-size: 30px;
+    color:#FF3147;
+    font-weight: 600;
+    margin-top: 15%;
+}
+
+.heading > img{
+
+    width: 23%;
+    height: 90%;
+    padding-bottom: 10%;
+}
+
+/* second section */
+
+.whatwedo{
+    background-color: #FAFAFA;
+    padding-left: 19%;
+    height: 90vh;
+
+}
+
+.whatwedo > p{
+    font-size: 1.5em;
+    color: #FF3147;
+    padding-top: 5%;
+}
+
+.whatwedo > div{
+    display: flex;
+}
+
+.whatwedo > div > h1{
+
+    margin-top: 0;
+    width: 30%;
+    font-family: Cormorant SC,Bold;
+}
+
+.whatwedo > div > p{
+    width: 40%;
+    padding-left: 5%;
+}
+
+.item > img:hover{
+    cursor: pointer;
+}
+
+.owl-item > div{
+    width: 90%;
+    height: 100%;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+    text-align: left;
+    padding-top: 1%;
+}
+
+.owl-carousel{
+    margin-top: 1%;
+    height: 70%;
+}
+.owl-stage-outer{
+    height: 80%;
+    width: 100%;
+}
+/* third section */
+
+.whychooseus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whychooseus > p{
+
+    margin-top: 4.5%;
+    color: #FF3147;
+    font-size: 1.5em;
+}
+
+.whychooseus > h1{
+    font-size: 2.8em;
+    margin-top: 0;
+}
+
+.whychooseus > div{
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon1{
+    margin-left: 5%;
+}
+
+.whychooseus > div > div{
+    width: 20%;
+    margin-right: 2%;
+}
+
+
+.ourproject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.ourproject > div{
+    width: 60%;
+    display: flex;
+
+}
+
+.ourproject > div > div > img{
+
+    width: 616.86px;
+    height: 458.53px;
+}
+
+.projectdetail{
+    background-color:#F6F6F6 ;
+    width: 40%;
+}
+
+.projectdetail > div > h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.projectdetail > div > p{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.projectdetail > div:hover{
+    background-color: #FF3147;
+    color: white;
+}
+
+.projectdetail > div {
+
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ourproject > p{
+    font-size: 1.5em;
+    margin-top: 3%;
+    color: #FF3147  ;
+}
+
+.ourproject > h1{
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.expertgrowth{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+}
+
+.expertgrowth > p{
+    font-size: 1.5em;
+    color: #FF3147;
+}
+
+.expertgrowth > div{
+
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding-top: 2%;
+}
+
+.icon{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 4%;
+}
+
+.icon:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon > img{
+    width: 15%;
+    height: 15%;
+    margin-bottom: 2%;
+}
+
+.numbers{
+    font-size: 2.2em;
+    margin: 0;
+}
+
+/* fifth section */
+
+.clientfeedback{
+    height: 80vh;
+}
+
+.fifth >  img{
+    position: absolute;
+    top: 3075px;
+    left: 475px;
+    width: 55px;
+    height: 37px;
+    z-index: -1;
+}
+
+.clientfeedback > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.fifthhead{
+    color: #FF3147;
+    font-size: 1.5em;
+}
+
+.fifthcontent{
+    width: 40%;
+    z-index: 2;
+    font-size: 1.1em;
+    margin-left: 5%;
+}
+
+.fifthcaption{
+    margin-right: 8%;
+    color:#808080;
+}
+
+.clientfeedback > div > h1{
+    margin-top: 0;
+}
+
+.colorred{
+    color: #FF3147;
+    font-weight:600;
+}
+
+.footer{
+    background-color: #FF3147;
+    margin-top: 3%;
+    height: 50%;
+}
+
+.footer > img{
+    margin: auto;
+}
+
+/* contactus */
+
+.contactus{
+    opacity: 0;
+    position:absolute;
+    bottom: 40%;
+    left: 36%;
+    background-color: white;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    width: 30%;
+    height: 40%;
+}
+
+.contactus > h2{
+    margin-left: 7%;
+}
+
+form > button{
+    background-color:#FF3366;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    width: 80%;
+    padding: 3%;
+    margin-left: 8%;
+    margin-top: 4%;
+    border-radius: 2%;
+    font-size: 1.1em;
+    transition: ease-in-out;
+}
+
+.check{
+    display: flex;
+    margin-left: 7%;
+}
+
+.check > p{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: #616678;
+    margin-bottom: 0;
+}
+
+
+form > input{
+    margin-left: 8%;
+    border: none; 
+    border-bottom: 2px solid grey; 
+}
+
+.textfield{
+    margin-left: 8%;
+    width: 80%;
+    margin-top: 8%;
+}
+
+.textfield > input{
+    border: none; 
+    border-bottom: 2px solid grey;
+    margin-right: 2%; 
+}
+
+
+/* class handle by javascript */
+
+
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+  }
