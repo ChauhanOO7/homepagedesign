@@ -5,7 +5,7 @@ const image=document.querySelector(".targetimage img");
 const contactbutton=document.querySelector(".content button");
 const contactpopup=document.querySelector(".contactus");
 const body=document.querySelector(".heading");
-const newwindowbutton=document.querySelector(".text button");
+const newwindowbutton=document.querySelector(".whatwedo");
 
 first.addEventListener("mouseenter",(e)=>{
     
@@ -39,8 +39,19 @@ contactbutton.addEventListener("click",(e)=>{
     body.style.opacity=0.5;
 });
 
-newwindowbutton.addEventListener("click",()=>{
 
-    window.open('https://www.fylehq.com/');
+newwindowbutton.addEventListener("click",(e)=>{
+
+    console.log(e.target.tagName)
+    if(e.target.tagName == 'BUTTON' || e.target.tagName == 'SPAN')
+    {
+        window.open('https://www.fylehq.com/');
+    }
+
+    if(e.target.className == 'direct')
+    {
+        window.open('https://www.fylehq.com/');
+    }
+    
 });
 
