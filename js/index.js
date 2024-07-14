@@ -5,6 +5,7 @@ const image=document.querySelector(".targetimage img");
 const contactbutton=document.querySelector(".content button");
 const contactpopup=document.querySelector(".contactus");
 const body=document.querySelector(".heading");
+const newwindowbutton=document.querySelector(".text button");
 
 first.addEventListener("mouseenter",(e)=>{
     
@@ -35,5 +36,11 @@ third.addEventListener("mouseenter",(e)=>{
 contactbutton.addEventListener("click",(e)=>{
 
     contactpopup.style.opacity=1;
-    body.classList.add("blur");
+    body.style.opacity=0.5;
 });
+
+newwindowbutton.addEventListener("click",()=>{
+
+    window.open('https://www.fylehq.com/');
+});
+

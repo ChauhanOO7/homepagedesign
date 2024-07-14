@@ -27,7 +27,7 @@ body{
     margin-top: 0;
 }
 
-.content > button{
+.content > a > button{
     width: 23.4375%;
     height:7.8125%;
     font-size: 1em;
@@ -383,8 +383,72 @@ form > input{
 
 /* class handle by javascript */
 
+.add{
+    background-color: red;
+}
 
-.blur {
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(8px);
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #FF3147;
+  }
+
+  /* .item:hover .overlay {
+    opacity: 1;
+  } */
+
+  .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .textfirst{
+    font-size: 1.05em;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+
+  .textsecond{
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 15%;
+  }
+
+  .text > img{
+    width: 57px;
+    height: 57px;
+  }
+
+  .text{
+    width: 100%;
+    padding-bottom: 20%;
+  }
+
+  .text > button{
+    width: 50%;
+    padding: 4%;
+    color: #FF3147;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    padding-left: 5%;
+    border-style: none;
+  }
+
+  .text > button > span{
+    padding-left: 10%;
+    padding-top: 2%;
   }
