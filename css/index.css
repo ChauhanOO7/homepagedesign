@@ -166,6 +166,7 @@ body{
 .projectdetail{
     background-color:#F6F6F6 ;
     width: 40%;
+    margin-left: 2%;
 }
 
 .projectdetail > div > h2{
